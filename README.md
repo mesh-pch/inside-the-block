@@ -28,3 +28,11 @@ Leader-side arrival time (we can't observe it), RPC-forwarding reordering vs sch
 
 Results: see REPORT.md.
 * Raw blocks stored as `block_<slot>.json.gz`.
+
+## Support this research
+
+If this was useful, tips are welcome (SOL / USDC / USDT on Solana):
+
+`mwcCTqQvsuTipRmW712oLofMyusP8YdgVunkGZheBKu`
+
+Tips fund more mainnet runs (more validators, more clients, continuous monitoring).
