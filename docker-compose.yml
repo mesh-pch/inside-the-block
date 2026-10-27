@@ -1,0 +1,6 @@
+services:
+  itb:
+    build: .
+    environment: [RPC_URL=${RPC_URL:-https://api.mainnet-beta.solana.com}, KEYPAIR=/keys/key.json]
+    volumes: ["${KEY_DIR:-./keys}:/keys:ro", "./data:/app/data"]
+    command: ${ITB_ARGS:---out data/run}
